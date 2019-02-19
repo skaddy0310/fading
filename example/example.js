@@ -1,0 +1,20 @@
+$(document).ready(function(){
+  $('#img1').mouseenter(function(){
+    $('#fade1').fadeIn('slow');
+  });
+  $('#fade1').mouseleave(function(){
+    $('#fade1').fadeOut('slow');
+  });
+  $('#img2').mouseenter(function(){
+    $('#fade2').fadeIn('slow');
+  });
+  $('#fade2').mouseleave(function(){
+    $('#fade2').fadeOut('slow');
+  });
+  $('#img3').mouseenter(function(){
+    $('#fade3').fadeIn('slow');
+  });
+  $('#fade3').mouseleave(function(){
+    $('#fade3').fadeOut('slow');
+  });
+});
